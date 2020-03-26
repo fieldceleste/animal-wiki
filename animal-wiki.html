@@ -1,34 +1,58 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <script src="js/jquery-3.4.1.js"></script>
-    <script src="js/scripts.js"></script>
-    <title>Drinks</title>
-  </head>
-  <body>
-    <div class="container">
-      <div class="jumbotron">
+
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.4.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Animal Wikipedia</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="jumbotron">
       <h1>The <strong><u>Amazing</u></strong> Animal Wikipedia</h1>
     </div>
     <h3>Please select an animal to learn more!</h3>
 
-    <div class="radio">
-      <label>
-        <input type="radio" name="animals" value="snakes" checked>
-        Snakes-
-      </label>
+
+
+
+    <form id="wiki">
+
+      
+      <label for="animals-snake"><input type="radio" name="aniamls1" value="0" id="animals-snake"/><p>Snakes</p></label>
+    
+
+      
+      <label for="animals-whales"><input type="radio" name="aniamls2" value="1"
+            id="animals-whales"/><p>Whales</p></label>
+    
+   
+    
+      <label for="animals-bats"><input type="radio" name="aniamls3" value="2" id="animals-bats"/><p>Bats</p></label>
+  
+
+      <br>
+      <button type="submit" value="Submit">Submit</button>
+      </br>
+    </form>
+    <span id="answer"></span>
+
+<div id="snakes">
+<img src="img/snakes.jpg" alt="photo of snake">
+<p>Snakes go hissssss</p>
+</div>
+<div id="whales">
+  <img src="img/whales.jpg" alt="photo of whale">
+  <p>Whales are hugeeeee</p>
+</div>
+<div id="bats">
+  <img src="img/bats.jpg" alt="photo of bats">
+  <p>Bats are cooollllll</p>
+</div>
+
     </div>
-    <div class="radio">
-      <label>
-        <input type="radio" name="animals" value="whales">
-        Whales-
-      </label>
-    </div>
-    <div class="radio">
-      <label>
-        <input type="radio" name="animals" value="bats">
-        Bats-
-      </label>
-    </div>
+    </body>
+    </html>
