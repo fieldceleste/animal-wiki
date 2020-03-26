@@ -1,0 +1,1 @@
+var animals = $("input:radio[name=flavor]:checked").val();
